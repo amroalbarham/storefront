@@ -5,5 +5,5 @@
 ## Links
  
 - [Sandbox]()
-- [Pull Request:]()
+- [Pull Request:](https://github.com/amroalbarham/storefront/pull/1)
 - [netlify:]()
