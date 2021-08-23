@@ -5,5 +5,5 @@
 ## Links
  
 - [Sandbox](https://codesandbox.io/s/objective-curie-5ypt0)
-- [Pull Request:](https://github.com/amroalbarham/storefront/pull/1)
+- [Pull Request:](https://github.com/amroalbarham/storefront/pull/4)
 - [netlify:]()
