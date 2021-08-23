@@ -32,10 +32,10 @@ function Categories(props) {
                 })}
             </Tabs>
         </Paper>
-        <div  style={{marginLeft:'50%'}}>
-        <div style={{width:'300',margin:'auto'}}><h2>{props.activeCategory.name}</h2></div>
-        <div style={{width:'300',margin:'auto'}}><h2>{props.activeCategory.description}</h2></div>
-    </div>
+        <div style={{ marginLeft: '50%' }}>
+            <div style={{ width: '300', margin: 'auto' }}><h2>{props.activeCategory.name}</h2></div>
+            <div style={{ width: '300', margin: 'auto' }}><h2>{props.activeCategory.description}</h2></div>
+        </div>
     </>
     )
 }
