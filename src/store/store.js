@@ -1,7 +1,8 @@
 import { createStore, combineReducers } from "redux";
 import categoryReducer from './categories';
 import productsReducer from './products';
-const reducers = combineReducers({ categories: categoryReducer, products: productsReducer });
+import cartReducer from './cart';
+const reducers = combineReducers({categories:categoryReducer,products:productsReducer,cart:cartReducer});
 function store() {
     return createStore(reducers);
 }
