@@ -1,11 +1,7 @@
 const initialState = {
-  categories: [{ name: 'electronics', description: 'electornic equipment' }, { name: 'food', description: 'food .............' }],
+  categories: [{ name: 'electronics', description: 'electornic equipment' }, { name: 'food', description: 'food .....' }],
   activeCategory: {},
 }
-/*{
-  name,
-  discreption,
-}*/
 
 export default function categoriesReducer(state = initialState, action) {
   const { payload, type } = action;
